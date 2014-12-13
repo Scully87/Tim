@@ -1,3 +1,143 @@
+@media only screen and (max-width: 840px) {
+
+  #enquire {
+    /*margin: 5%;*/
+    font-size: 370%;
+    margin-top: 15%;
+  }
+
+  #email {
+    /*margin: 5%;*/
+    font-size: 370%;
+    margin-bottom:15%;
+  }
+
+}
+
+@media only screen and (max-width: 610px) {
+
+  #enquire {
+    /*margin: 5%;*/
+    font-size: 320%;
+    margin-top: 20%;
+  }
+
+  #email {
+    /*margin: 5%;*/
+    font-size: 320%;
+    margin-bottom: 20%;
+  }
+
+}
+
+@media only screen and (max-width: 554px) {
+
+  #enquire {
+    /*margin: 5%;*/
+    font-size: 270%;
+  }
+
+  #email {
+    /*margin: 5%;*/
+    font-size: 270%;
+  }
+
+}
+
+@media only screen and (max-width: 454px) {
+
+  #enquire {
+    /*margin: 5%;*/
+    font-size: 200%;
+    margin-top: 25%;
+  }
+
+  #email {
+    /*margin: 5%;*/
+    font-size: 200%;
+    margin-bottom: 25%2;
+  }
+
+}
+
+@media only screen and (max-width: 320px) {
+
+  #enquire {
+    margin-top: 40%;
+    font-size: 170%;
+  }
+
+  #email {
+    /*margin: 5%;*/
+    font-size: 170%;
+    margin-bottom: 40%;
+  }
+
+}
+
+.content-contact p {
+  margin-top: 7%;
+  margin-bottom: 7%;
+  font-size: 500%;
+}
+
+@media only screen and (max-width: 515px) {
+
+  #port {
+    margin-top: 20%;
+    margin-bottom: 20%;
+    font-size: 400%;
+  }
+
+}
+
+@media only screen and (max-width: 436px) {
+
+  #port {
+    margin: 5%;
+    font-size: 370%;
+  }
+
+}
+
+@media only screen and (max-width: 320px) {
+
+  #port {
+    margin-top: 42%;
+    margin-bottom: 42%;
+    font-size: 200%;
+  }
+
+  p#name {
+    margin: 0;
+    font-size: 275%;
+  }
+
+  p#dev {
+    font-size: 250%;
+  }
+
+  p#made {
+    font-size: 250%;
+  }
+
+  ul li a {
+    font-size: 120%;
+  }
+
+}
+
+
+
+
+
+.content-portfolio p {
+  margin: 5%;
+  font-size: 500%;
+}
+
+
+
 @media only screen and (max-width: 732px) {
 
   .paragraph-content {
@@ -95,6 +235,49 @@
   }
 
 }
+
+
+@media only screen and (max-width: 375px) {
+
+  .content-about {
+  }
+
+  .paragraph-content {
+    margin: 0;
+    padding-top: 10%;
+    font-size: 45%;
+  }
+
+  #dev-img {
+    margin-top: 30%;
+    margin-bottom: 30%;
+    max-width:100%;
+    max-height:100%;
+  }
+
+}
+
+@media only screen and (max-width: 320px) {
+
+  .content-about {
+    margin: 0;
+    padding: 0;
+  }
+
+  .paragraph-content {
+    margin: 0;
+    font-size: 40%;
+  }
+
+  #dev-img {
+    margin-top: 17%;
+    margin-bottom: 25%;
+    max-width:90%;
+    max-height:90%;
+  }
+
+}
+
 .content-about {
   font-size: 500%;
 }
@@ -159,15 +342,14 @@ img {
 
 .index-page {
   background-color: #21dede;
-  /*height: 100%;*/
-  /*width: 100%;*/
+  height: 100%;
   margin: 0;
   padding: 0;
 }
 
 .about-page {
   background-color: #E339B6;;
-  /*height: 100%;*/
+  height: 100%;
   /*width: 100%;*/
   margin: 0;
   padding: 0;
@@ -175,15 +357,15 @@ img {
 
 .portfolio-page {
   background-color: #545E5D;
-  /*height: 100%;*/
-  /*width: 100%;*/
+  height: 100%;
+  width: 100%;
   margin: 0;
   padding: 0;
 }
 
 .contact-page {
   background-color: #4982DE;
-  /*height: 100%;*/
+  height: 100%;
   /*width: 100%;*/
   margin: 0;
   padding: 0;
@@ -288,7 +470,7 @@ a:visited {
   }
 
   #footer-index {
-    padding-top: 25%;
+    padding-top: 20%;
     position: relative;
   }
 
@@ -304,7 +486,7 @@ a:visited {
 @media only screen and (max-width: 380px) {
 
   p#name {
-    margin-top: 30%;
+    margin-top: 10%;
     font-size: 295%;
   }
 
@@ -316,9 +498,9 @@ a:visited {
     font-size: 270%;
   }
 
-  #footer-index {
+  /*#footer-index {
     position: relative;
-  }
+  }*/
 
   ul li a {
     font-size: 150%;
@@ -333,7 +515,7 @@ a:visited {
 @media only screen and (max-width: 340px) {
 
   p#name {
-    margin-top: 25%;
+    margin-top: 17%;
     font-size: 275%;
   }
 
@@ -343,10 +525,6 @@ a:visited {
 
   p#made {
     font-size: 250%;
-  }
-
-  #footer-index {
-    position: relative;
   }
 
   ul li a {
@@ -363,10 +541,9 @@ a:visited {
    iPhone 4
 =============*/
 
-@media only screen and (max-width: 319px) {
+@media only screen and (max-width: 320px) {
 
   p#name {
-    /*margin-top: 15%;*/
     font-size: 275%;
   }
 
@@ -375,11 +552,8 @@ a:visited {
   }
 
   p#made {
+    margin: 0;
     font-size: 250%;
-  }
-
-  #footer-index {
-    position: relative;
   }
 
   ul li a {
