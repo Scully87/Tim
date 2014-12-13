@@ -102,7 +102,7 @@ span #slash {
 
 @media only screen and (max-width: 515px) {
 
-  #port {
+  p #port {
     margin-top: 20%;
     margin-bottom: 20%;
     font-size: 400%;
@@ -112,7 +112,7 @@ span #slash {
 
 @media only screen and (max-width: 360px) {
 
-  #port {
+  p #port {
     margin-top: 20%;
     margin-bottom: 20%;
     font-size: 200%;
@@ -122,7 +122,7 @@ span #slash {
 
 @media only screen and (max-width: 436px) {
 
-  #port {
+  p #port {
     margin: 5%;
     font-size: 370%;
   }
