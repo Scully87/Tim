@@ -1,3 +1,7 @@
+span #slash {
+  display: none;
+}
+
 @media only screen and (max-width: 840px) {
 
   #enquire {
@@ -264,6 +268,10 @@
   .content-about {
     margin: 0;
     padding: 5%;
+  }
+
+  span #slash {
+    width: 2%;
   }
 
   .paragraph-content {
