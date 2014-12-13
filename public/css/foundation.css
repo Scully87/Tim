@@ -72,7 +72,7 @@
   }
 
   #slash {
-    width: 1%;
+    display: block;
   }
 
   #email {
@@ -90,8 +90,8 @@
     font-size: 170%;
   }
 
-  #slash {
-    width: 1%;
+ #slash {
+    display: block;
   }
 
   #email {
