@@ -84,7 +84,7 @@ a:visited {
 @media only screen and (max-width: 550px) {
 
   p#name {
-    margin-top: 30%;
+    margin-top: 25%;
     font-size: 350%;
   }
 
@@ -97,7 +97,7 @@ a:visited {
   }
 
   footer {
-    padding-top: 30%;
+    padding-top: 25%;
     position: relative;
   }
 }
@@ -139,6 +139,35 @@ a:visited {
 
   p#name {
     margin-top: 25%;
+    font-size: 275%;
+  }
+
+  p#dev {
+    font-size: 250%;
+  }
+
+  p#made {
+    font-size: 250%;
+  }
+
+  footer {
+    position: relative;
+  }
+
+  ul li a {
+    font-size: 120%;
+  }
+
+}
+
+/*=============
+   iPhone 4
+=============*/
+
+@media only screen and (max-width: 319px) {
+
+  p#name {
+    /*margin-top: 15%;*/
     font-size: 275%;
   }
 
