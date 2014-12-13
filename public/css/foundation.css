@@ -1,3 +1,50 @@
+footer {
+  display:none;
+}
+
+.large-12 {
+  padding-top: 2%;
+  margin-right: 5%;
+}
+
+p#name {
+  font-size: 500%;
+}
+
+p#dev {
+  font-size: 450%;
+}
+
+p#made {
+  font-size: 450%;
+}
+
+ul li a {
+  text-decoration: none;
+  font-size: 150%;
+  color: white;
+  opacity: 0.6;
+  margin-top: 2%;
+  padding: 0;
+  margin-left: 0;
+}
+
+ul li a:hover {
+  text-decoration: none;
+  font-size: 150%;
+  color: white;
+  opacity: 1;
+  margin-top: 2%;
+}
+
+a:visited {
+  text-decoration: none;
+};
+
+.inline-list {
+  text-align: center;
+}
+
 meta.foundation-version {
   font-family: "/5.5.0/"; }
 
@@ -52,19 +99,22 @@ html, body {
 
 html,
 body {
-  font-size: 100%; }
+  font-size: 100%;
+  color: white; }
 
 body {
-  background: #fff;
-  color: #222;
+  background-color: #21dede;
+  color: white;
   padding: 0;
   margin: 0;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: 'Boogaloo', cursive;
   font-weight: normal;
   font-style: normal;
   line-height: 1.5;
   position: relative;
-  cursor: auto; }
+  cursor: auto;
+  text-align: center;
+}
 
 a:hover {
   cursor: pointer; }
@@ -931,7 +981,7 @@ select {
     width: 66.66667%; }
 
   .large-9 {
-    width: 75%; }
+    width: 100%; }
 
   .large-10 {
     width: 83.33333%; }
@@ -2288,9 +2338,9 @@ meta.foundation-mq-topbar {
   overflow: hidden; }
   .inline-list > li {
     list-style: none;
-    float: left;
+    /*float: right;*/
     margin-left: 1.375rem;
-    display: block; }
+    display: inline-block; }
     .inline-list > li > * {
       display: block; }
 
