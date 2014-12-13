@@ -248,6 +248,10 @@ span #slash {
     padding: 10%;
   }
 
+  span #slash {
+    width: 2%;
+  }
+
   .paragraph-content {
     margin: 0;
     /*padding-top: 10%;*/
@@ -276,7 +280,7 @@ span #slash {
 
   .paragraph-content {
     margin: 0;
-    font-size: 40%;
+    font-size: 45%;
   }
 
   #dev-img {
@@ -293,6 +297,10 @@ span #slash {
   .content-about {
     margin: 0;
     padding: 0;
+  }
+
+  span #slash {
+    width: 2%;
   }
 
   .paragraph-content {
