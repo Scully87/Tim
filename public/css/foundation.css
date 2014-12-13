@@ -268,12 +268,12 @@
 
   .paragraph-content {
     margin: 0;
-    font-size: 44%;
+    font-size: 40%;
   }
 
   #dev-img {
-    margin-top: 17%;
-    margin-bottom: 25%;
+    margin-top: 20%;
+    margin-bottom: 20%;
     max-width:90%;
     max-height:90%;
   }
