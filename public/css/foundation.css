@@ -81,6 +81,53 @@ a:visited {
   text-align: center;
 }
 
+@media only screen and (max-width: 550px) {
+
+  p#name {
+    margin-top: 30%;
+    font-size: 350%;
+  }
+
+  p#dev {
+    font-size: 320%;
+  }
+
+  p#made {
+    font-size: 320%;
+  }
+
+  footer {
+    padding-top: 30%;
+    position: relative;
+  }
+}
+
+@media only screen and (max-width: 340px) {
+
+  p#name {
+    margin-top: 25%;
+    font-size: 275%;
+  }
+
+  p#dev {
+    font-size: 250%;
+  }
+
+  p#made {
+    font-size: 250%;
+  }
+
+  footer {
+    position: relative;
+  }
+
+  ul li a {
+    font-size: 120%;
+  }
+
+}
+
+
 meta.foundation-version {
   font-family: "/5.5.0/"; }
 
