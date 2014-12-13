@@ -1,10 +1,22 @@
+#nav-left {
+  margin-left: 2%;
+}
+
+#nav-right {
+  margin-right: 2%;
+}
+
+ul {
+  list-style-type: none;
+}
+
 footer {
   display:none;
 }
 
 .large-12 {
   padding-top: 2%;
-  margin-right: 5%;
+  /*margin-right: 5%;*/
 }
 
 p#name {
@@ -20,6 +32,7 @@ p#made {
 }
 
 ul li a {
+  list-style-type: none;
   text-decoration: none;
   font-size: 150%;
   color: white;
@@ -30,6 +43,7 @@ ul li a {
 }
 
 ul li a:hover {
+  list-style-type: none;
   text-decoration: none;
   font-size: 150%;
   color: white;
