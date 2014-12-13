@@ -102,6 +102,39 @@ a:visited {
   }
 }
 
+/*=============
+   iPHONE 6
+=============*/
+
+@media only screen and (max-width: 380px) {
+
+  p#name {
+    margin-top: 30%;
+    font-size: 295%;
+  }
+
+  p#dev {
+    font-size: 270%;
+  }
+
+  p#made {
+    font-size: 270%;
+  }
+
+  footer {
+    position: relative;
+  }
+
+  ul li a {
+    font-size: 150%;
+  }
+
+}
+
+/*=============
+   iPHONE 5
+=============*/
+
 @media only screen and (max-width: 340px) {
 
   p#name {
