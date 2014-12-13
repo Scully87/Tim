@@ -31,8 +31,30 @@ p#made {
   font-size: 450%;
 }
 
-ul li a {
+a {
+  text-decoration: none;
+  /*font-size: 150%;*/
+  color: white;
+  /*opacity: 0.6;*/
+  margin-top: 2%;
+  padding: 0;
+  margin-left: 0;
+}
+
+a:hover {
   list-style-type: none;
+  text-decoration: none;
+  font-size: 120%;
+  color: white;
+  opacity: 1;
+  margin-top: 2%;
+}
+
+a:active {
+  color: black;
+}
+
+ul li a {
   text-decoration: none;
   font-size: 150%;
   color: white;
@@ -3639,11 +3661,9 @@ td {
 
 /* Default Link Styles */
 a {
-  color: #008CBA;
+  /*color: #008CBA;*/
   text-decoration: none;
   line-height: inherit; }
-  a:hover, a:focus {
-    color: #0078a0; }
   a img {
     border: none; }
 
