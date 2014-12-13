@@ -71,6 +71,10 @@
     font-size: 180%;
   }
 
+  #slash {
+    width: 1%;
+  }
+
   #email {
     /*margin: 5%;*/
     font-size: 180%;
@@ -84,6 +88,10 @@
   #enquire {
     margin-top: 40%;
     font-size: 170%;
+  }
+
+  #slash {
+    width: 1%;
   }
 
   #email {
@@ -132,8 +140,8 @@
 @media only screen and (max-width: 320px) {
 
   #port {
-    margin-top: 22%;
-    margin-bottom: 22%;
+    margin-top: 16%;
+    margin-bottom: 16%;
     font-size: 300%;
   }
 
