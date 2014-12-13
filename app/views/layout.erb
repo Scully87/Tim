@@ -6,6 +6,7 @@
     <title>Foundation | Welcome</title>
     <link rel="stylesheet" href="css/foundation.css" />
     <script src="js/vendor/modernizr.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Boogaloo' rel='stylesheet' type='text/css'>
   </head>
   <body>
   	<%= yield%>
@@ -13,6 +14,22 @@
     <script src="js/foundation.min.js"></script>
     <script>
       $(document).foundation();
+    </script>
+    <script>
+    $(document).ready(function() {
+
+			$('p#name').focus()
+			  .typetype("\nTIM SCULLY")
+				.fadeTo(4000,0.6)
+			  
+			$('p#dev').focus().delay(2500)
+			  .typetype("\nWEB DEVELOPMENT")
+			  .fadeTo(1000,0.6).delay(1000)
+
+			$('p#made').focus().delay(5000)
+			  .typetype("\nMADE SIMPLE")
+			  .fadeTo(1000,0.6).delay(1000)
+		});
     </script>
   </body>
 </html
