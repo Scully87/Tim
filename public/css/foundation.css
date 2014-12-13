@@ -1,4 +1,4 @@
-span #slash {
+#slash {
   display: none;
 }
 
@@ -102,7 +102,7 @@ span #slash {
 
 @media only screen and (max-width: 515px) {
 
-  p #port {
+  #port {
     margin-top: 20%;
     margin-bottom: 20%;
     font-size: 400%;
@@ -110,21 +110,21 @@ span #slash {
 
 }
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 436px) {
 
-  p #port {
-    margin-top: 20%;
-    margin-bottom: 20%;
+  #port {
+    margin: 5%;
     font-size: 200%;
   }
 
 }
 
-@media only screen and (max-width: 436px) {
+@media only screen and (max-width: 360px) {
 
-  p #port {
-    margin: 5%;
-    font-size: 370%;
+ #port {
+    margin-top: 30%;
+    margin-bottom: 35%;
+    font-size: 320%;
   }
 
 }
@@ -132,9 +132,9 @@ span #slash {
 @media only screen and (max-width: 320px) {
 
   #port {
-    margin-top: 42%;
-    margin-bottom: 42%;
-    font-size: 200%;
+    margin-top: 22%;
+    margin-bottom: 22%;
+    font-size: 300%;
   }
 
   p#name {
@@ -155,8 +155,6 @@ span #slash {
   }
 
 }
-
-
 
 
 
@@ -273,9 +271,7 @@ span #slash {
     padding: 10%;
   }
 
-  span #slash {
-    width: 2%;
-  }
+
 
   .paragraph-content {
     margin: 0;
@@ -299,10 +295,6 @@ span #slash {
     padding: 5%;
   }
 
-  span #slash {
-    width: 2%;
-  }
-
   .paragraph-content {
     margin: 0;
     font-size: 42%;
@@ -321,23 +313,20 @@ span #slash {
 
   .content-about {
     margin: 0;
-    padding: 0;
+    padding: 5%;
   }
 
-  span #slash {
-    width: 2%;
-  }
 
   .paragraph-content {
     margin: 0;
-    font-size: 40%;
+    font-size: 36%;
   }
 
   #dev-img {
-    margin-top: 17%;
+    margin-top: 30%;
     margin-bottom: 25%;
-    max-width:90%;
-    max-height:90%;
+    max-width:95%;
+    max-height:95%;
   }
 
 }
