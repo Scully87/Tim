@@ -241,7 +241,7 @@
 
   .content-about {
     margin: 0;
-    padding: 0;
+    padding: 10%;
   }
 
   .paragraph-content {
@@ -263,12 +263,12 @@
 
   .content-about {
     margin: 0;
-    padding: 0;
+    padding: 10%;
   }
 
   .paragraph-content {
     margin: 0;
-    font-size: 40%;
+    font-size: 44%;
   }
 
   #dev-img {
