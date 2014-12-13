@@ -280,12 +280,12 @@ span #slash {
 
   .paragraph-content {
     margin: 0;
-    font-size: 45%;
+    font-size: 42%;
   }
 
   #dev-img {
-    margin-top: 20%;
-    margin-bottom: 20%;
+    margin-top: 25%;
+    margin-bottom: 15%;
     max-width:90%;
     max-height:90%;
   }
