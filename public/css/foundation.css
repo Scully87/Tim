@@ -72,7 +72,7 @@
   }
 
   #slash {
-    display: block;
+    display: inline-block;
   }
 
   #email {
@@ -90,8 +90,8 @@
     font-size: 170%;
   }
 
- #slash {
-    display: block;
+  #slash {
+    display: inline-block;
   }
 
   #email {
@@ -279,7 +279,9 @@
     padding: 10%;
   }
 
-
+   #slash {
+    display: inline-block;
+  }
 
   .paragraph-content {
     margin: 0;
