@@ -240,11 +240,13 @@
 @media only screen and (max-width: 375px) {
 
   .content-about {
+    margin: 0;
+    padding: 0;
   }
 
   .paragraph-content {
     margin: 0;
-    padding-top: 10%;
+    /*padding-top: 10%;*/
     font-size: 45%;
   }
 
@@ -253,6 +255,27 @@
     margin-bottom: 30%;
     max-width:100%;
     max-height:100%;
+  }
+
+}
+
+@media only screen and (max-width: 360px) {
+
+  .content-about {
+    margin: 0;
+    padding: 0;
+  }
+
+  .paragraph-content {
+    margin: 0;
+    font-size: 40%;
+  }
+
+  #dev-img {
+    margin-top: 17%;
+    margin-bottom: 25%;
+    max-width:90%;
+    max-height:90%;
   }
 
 }
