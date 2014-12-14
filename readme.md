@@ -2,7 +2,8 @@ Foundation Fun
 ======================
 
 
-[Tim Scully](http://www.timscully.co.uk)
+###Link to Site: 
+##[Tim Scully](http://www.timscully.co.uk)
 --------------------------
 
 ###
@@ -11,11 +12,11 @@ This repo was created to satisfy my curiousity with responsive design frameworks
 
 ####Technologies Used:
 
-	- Foundation Framework
-	- HTML5
-	- CSS3
-	- JQUERY
-	- TypeType plugin
-	- Adjector plugin
-	- Chrome Dev Tools
-	- My Android  Mobile Device for remote Debugging
+		- Foundation Framework
+		- HTML5
+		- CSS3
+		- JQUERY
+		- TypeType plugin
+		- Adjector plugin
+		- Chrome Dev Tools
+		- My Android  Mobile Device for remote Debugging
