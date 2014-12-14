@@ -22,9 +22,9 @@ This repo was created to satisfy my curiousity with responsive design frameworks
 		- My Android  Mobile Device for remote Debugging
 		- Heroku
 
-#####To Do List:
+#####To Do:
 
-			- [x] Re-work an existing template
-			- [x] Understand the concepts of using rows and columns
-			- [x] Test reposivness on all platforms
-			- [ ] Re-factor stylesheet
+- [x]Re-work an existing template
+- [x]Understand the concepts of using rows and columns
+- [x]Test reposivness on all platforms
+- [ ]Re-factor stylesheet
