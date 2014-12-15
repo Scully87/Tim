@@ -11,7 +11,7 @@
 
 @media only screen and (max-width: 865px) {
 
-  #port {
+  .port {
     margin-top: 5%;
     margin-bottom: 1%;
     font-size: 450%;
@@ -21,7 +21,7 @@
 
 @media only screen and (max-width: 781px) {
 
-  #port {
+  .port {
     margin-top: 10%;
     margin-bottom: 1%;
     font-size: 420%;
@@ -31,7 +31,7 @@
 
 @media only screen and (max-width: 733px) {
 
-  #port {
+  .port {
     margin-top: 11%;
     margin-bottom: 1%;
     font-size: 390%;
@@ -41,7 +41,7 @@
 
 @media only screen and (max-width: 682px) {
 
-  #port {
+  .port {
     margin-top: 13%;
     margin-bottom: 1%;
     font-size: 370%;
@@ -51,7 +51,7 @@
 
 @media only screen and (max-width: 649px) {
 
-  #port {
+  .port {
     margin-top: 15%;
     margin-bottom: 1%;
     font-size: 350%;
@@ -61,7 +61,7 @@
 
 @media only screen and (max-width: 620px) {
 
-  #port {
+  .port {
     margin-top: 15%;
     margin-bottom: 1%;
     font-size: 325%;
@@ -71,7 +71,7 @@
 
 @media only screen and (max-width: 576px) {
 
-  #port {
+  .port {
     margin-top: 17%;
     margin-bottom: 1%;
     font-size: 300%;
@@ -81,7 +81,7 @@
 
 @media only screen and (max-width: 535px) {
 
-  #port {
+  .port {
     margin-top:19%;
     margin-bottom: 2%;
     font-size: 275%;
@@ -91,7 +91,7 @@
 
 @media only screen and (max-width: 492px) {
 
-  #port {
+  .port {
     margin-top:22%;
     font-size: 250%;
   }
@@ -100,7 +100,7 @@
 
 @media only screen and (max-width: 463px) {
 
-  #port {
+  .port {
     margin-top: 25%;
     font-size: 225%;
   }
@@ -109,7 +109,7 @@
 
 @media only screen and (max-width: 436px) {
 
-  #port {
+  .port {
     margin-top: 28%;
     font-size: 200%;
   }
@@ -118,7 +118,7 @@
 
 @media only screen and (max-width: 360px) {
 
- #port {
+ .port {
     margin-top: 10%;
     margin-bottom: 15%;
     font-size: 200%;
@@ -128,7 +128,7 @@
 
 @media only screen and (max-width: 320px) {
 
-  #port {
+  .port {
     margin-top: 16%;
     margin-bottom: 16%;
     font-size: 170%;
@@ -266,10 +266,6 @@
   .content-about {
     margin: 0;
     padding: 10%;
-  }
-
-   #slash {
-    display: inline-block;
   }
 
   .paragraph-content {
@@ -579,7 +575,7 @@ a:visited {
 
 @media only screen and (max-width: 414px) {
 
-  #port {
+  .port {
     margin-bottom: 15%;
   }
 
