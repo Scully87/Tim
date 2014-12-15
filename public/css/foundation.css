@@ -3,122 +3,106 @@
  height: 0px;
 }
 
-#slash {
-  display: none;
-}
-
-@media only screen and (max-width: 840px) {
-
-  #enquire {
-    /*margin: 5%;*/
-    font-size: 370%;
-    margin-top: 15%;
-  }
-
-  #email {
-    /*margin: 5%;*/
-    font-size: 370%;
-    margin-bottom:15%;
-  }
-
-}
-
-@media only screen and (max-width: 610px) {
-
-  #enquire {
-    /*margin: 5%;*/
-    font-size: 320%;
-    margin-top: 20%;
-  }
-
-  #email {
-    /*margin: 5%;*/
-    font-size: 320%;
-    margin-bottom: 20%;
-  }
-
-}
-
-@media only screen and (max-width: 554px) {
-
-  #enquire {
-    /*margin: 5%;*/
-    font-size: 270%;
-  }
-
-  #email {
-    /*margin: 5%;*/
-    font-size: 270%;
-  }
-
-}
-
-@media only screen and (max-width: 454px) {
-
-  #enquire {
-    /*margin: 5%;*/
-    font-size: 200%;
-    margin-top: 25%;
-  }
-
-  #email {
-    /*margin: 5%;*/
-    font-size: 200%;
-    margin-bottom: 25%2;
-  }
-
-}
-
-@media only screen and (max-width: 360px) {
-
-  #enquire {
-    margin-top: 35%;
-    font-size: 180%;
-  }
-
-  #slash {
-    display: inline-block;
-  }
-
-  #email {
-    /*margin: 5%;*/
-    font-size: 180%;
-    margin-bottom: 35%;
-  }
-
-}
-
-@media only screen and (max-width: 320px) {
-
-  #enquire {
-    margin-top: 40%;
-    font-size: 170%;
-  }
-
-  #slash {
-    display: inline-block;
-  }
-
-  #email {
-    /*margin: 5%;*/
-    font-size: 170%;
-    margin-bottom: 40%;
-  }
-
-}
-
 .content-contact p {
   margin-top: 7%;
   margin-bottom: 7%;
   font-size: 500%;
 }
 
-@media only screen and (max-width: 515px) {
+@media only screen and (max-width: 865px) {
 
   #port {
-    margin-top: 20%;
-    margin-bottom: 20%;
-    font-size: 400%;
+    margin-top: 5%;
+    margin-bottom: 1%;
+    font-size: 450%;
+  }
+
+}
+
+@media only screen and (max-width: 781px) {
+
+  #port {
+    margin-top: 10%;
+    margin-bottom: 1%;
+    font-size: 420%;
+  }
+
+}
+
+@media only screen and (max-width: 733px) {
+
+  #port {
+    margin-top: 11%;
+    margin-bottom: 1%;
+    font-size: 390%;
+  }
+
+}
+
+@media only screen and (max-width: 682px) {
+
+  #port {
+    margin-top: 13%;
+    margin-bottom: 1%;
+    font-size: 370%;
+  }
+
+}
+
+@media only screen and (max-width: 649px) {
+
+  #port {
+    margin-top: 15%;
+    margin-bottom: 1%;
+    font-size: 350%;
+  }
+
+}
+
+@media only screen and (max-width: 620px) {
+
+  #port {
+    margin-top: 15%;
+    margin-bottom: 1%;
+    font-size: 325%;
+  }
+
+}
+
+@media only screen and (max-width: 576px) {
+
+  #port {
+    margin-top: 17%;
+    margin-bottom: 1%;
+    font-size: 300%;
+  }
+
+}
+
+@media only screen and (max-width: 535px) {
+
+  #port {
+    margin-top:19%;
+    margin-bottom: 2%;
+    font-size: 275%;
+  }
+
+}
+
+@media only screen and (max-width: 492px) {
+
+  #port {
+    margin-top:22%;
+    font-size: 250%;
+  }
+
+}
+
+@media only screen and (max-width: 463px) {
+
+  #port {
+    margin-top: 25%;
+    font-size: 225%;
   }
 
 }
@@ -126,7 +110,7 @@
 @media only screen and (max-width: 436px) {
 
   #port {
-    margin: 5%;
+    margin-top: 28%;
     font-size: 200%;
   }
 
@@ -135,9 +119,9 @@
 @media only screen and (max-width: 360px) {
 
  #port {
-    margin-top: 20%;
-    margin-bottom: 20%;
-    font-size: 320%;
+    margin-top: 10%;
+    margin-bottom: 15%;
+    font-size: 200%;
   }
 
 }
@@ -147,20 +131,20 @@
   #port {
     margin-top: 16%;
     margin-bottom: 16%;
-    font-size: 300%;
+    font-size: 170%;
   }
 
   p#name {
     margin: 0;
-    font-size: 275%;
+    font-size: 150%;
   }
 
   p#dev {
-    font-size: 250%;
+    font-size: 150%;
   }
 
   p#made {
-    font-size: 250%;
+    font-size: 150%;
   }
 
   ul li a {
@@ -523,10 +507,10 @@ a:visited {
   text-align: center;
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 737px) {
 
   p#name {
-    margin-top: 25%;
+    margin-top: 10%;
     font-size: 350%;
   }
 
@@ -539,13 +523,88 @@ a:visited {
   }
 
   #footer-index {
-    padding-top: 20%;
+    /*padding-top: 20%;*/
+    position: relative;
+  }
+}
+@media only screen and (max-width: 550px) {
+
+  p#name {
+    margin-top: 10%;
+    font-size: 350%;
+  }
+
+  p#dev {
+    font-size: 320%;
+  }
+
+  p#made {
+    font-size: 320%;
+  }
+
+  #footer-index {
+    /*padding-top: 20%;*/
     position: relative;
   }
 
   a:hover {
     font-size:100%;
   }
+}
+
+@media only screen and (max-width: 530px) {
+
+  p#name {
+    margin-top: 10%;
+    font-size: 350%;
+  }
+
+  p#dev {
+    font-size: 320%;
+  }
+
+  p#made {
+    font-size: 220%;
+  }
+
+  #footer-index {
+    /*padding-top: 20%;*/
+    position: relative;
+  }
+
+  a:hover {
+    font-size:100%;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+
+  #port {
+    margin-bottom: 15%;
+  }
+
+  p#name {
+    margin-top: 15%;
+    font-size: 270%;
+  }
+
+  p#dev {
+    font-size: 280%;
+  }
+
+  p#made {
+    font-size: 230%;
+    margin-bottom: 30%;
+  }
+
+  /*#footer-index {
+    position: relative;
+  }*/
+
+  ul li a {
+    font-size: 150%;
+  }
+
 }
 
 /*=============
@@ -556,15 +615,42 @@ a:visited {
 
   p#name {
     margin-top: 10%;
-    font-size: 295%;
+    font-size: 250%;
   }
 
   p#dev {
-    font-size: 270%;
+    font-size: 250%;
   }
 
   p#made {
-    font-size: 270%;
+    font-size: 220%;
+    margin-bottom: 20%;
+  }
+
+  /*#footer-index {
+    position: relative;
+  }*/
+
+  ul li a {
+    font-size: 150%;
+  }
+
+}
+
+@media only screen and (max-width: 360px) {
+
+  p#name {
+    margin-top: 15%;
+    font-size: 220%;
+  }
+
+  p#dev {
+    font-size: 220%;
+  }
+
+  p#made {
+    font-size: 200%;
+    padding-bottom: 20%;
   }
 
   /*#footer-index {
@@ -584,16 +670,17 @@ a:visited {
 @media only screen and (max-width: 340px) {
 
   p#name {
-    margin-top: 17%;
-    font-size: 275%;
+    /*margin-top: 17%;*/
+    font-size: 200%;
   }
 
   p#dev {
-    font-size: 250%;
+    font-size: 200%;
   }
 
   p#made {
-    font-size: 250%;
+    font-size: 180%;
+    padding-bottom: 20%;
   }
 
   ul li a {
@@ -613,16 +700,17 @@ a:visited {
 @media only screen and (max-width: 320px) {
 
   p#name {
-    font-size: 275%;
+    font-size: 175%;
   }
 
   p#dev {
-    font-size: 250%;
+    font-size: 175%;
   }
 
   p#made {
     margin: 0;
-    font-size: 250%;
+    font-size: 160%;
+    padding-bottom: 20%;
   }
 
   ul li a {
