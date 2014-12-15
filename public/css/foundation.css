@@ -1,6 +1,6 @@
 ::-webkit-scrollbar {
- width: 0px;
- height: 0px;
+ width: 0;
+ height: 0;
 }
 
 .content-contact p {
@@ -134,16 +134,16 @@
     font-size: 170%;
   }
 
-  p#name {
+  .name {
     margin: 0;
     font-size: 150%;
   }
 
-  p#dev {
+  .dev {
     font-size: 150%;
   }
 
-  p#made {
+  .made {
     font-size: 150%;
   }
 
@@ -440,16 +440,16 @@ ul {
   /*margin-right: 5%;*/
 }
 
-p#name {
+.name {
   margin-top: 8%;
   font-size: 500%;
 }
 
-p#dev {
+.dev {
   font-size: 450%;
 }
 
-p#made {
+.made {
   font-size: 450%;
 }
 
@@ -497,7 +497,7 @@ ul li a:hover {
 
 a:visited {
   text-decoration: none;
-};
+}
 
 .inline-list {
   text-align: center;
@@ -505,16 +505,16 @@ a:visited {
 
 @media only screen and (max-width: 737px) {
 
-  p#name {
+  .name {
     margin-top: 10%;
     font-size: 350%;
   }
 
-  p#dev {
+  .dev {
     font-size: 320%;
   }
 
-  p#made {
+  .made {
     font-size: 320%;
   }
 
@@ -525,16 +525,16 @@ a:visited {
 }
 @media only screen and (max-width: 550px) {
 
-  p#name {
+  .name {
     margin-top: 10%;
     font-size: 350%;
   }
 
-  p#dev {
+  .dev {
     font-size: 320%;
   }
 
-  p#made {
+  .made {
     font-size: 320%;
   }
 
@@ -550,16 +550,16 @@ a:visited {
 
 @media only screen and (max-width: 530px) {
 
-  p#name {
+  .name {
     margin-top: 10%;
     font-size: 350%;
   }
 
-  p#dev {
+  .dev {
     font-size: 320%;
   }
 
-  p#made {
+  .made {
     font-size: 220%;
   }
 
@@ -579,16 +579,16 @@ a:visited {
     margin-bottom: 15%;
   }
 
-  p#name {
+  .name {
     margin-top: 15%;
     font-size: 270%;
   }
 
-  p#dev {
+  .dev {
     font-size: 280%;
   }
 
-  p#made {
+  .made {
     font-size: 230%;
     margin-bottom: 30%;
   }
@@ -609,16 +609,16 @@ a:visited {
 
 @media only screen and (max-width: 380px) {
 
-  p#name {
+  .name {
     margin-top: 10%;
     font-size: 250%;
   }
 
-  p#dev {
+  .dev {
     font-size: 250%;
   }
 
-  p#made {
+  .made {
     font-size: 220%;
     margin-bottom: 20%;
   }
@@ -635,16 +635,16 @@ a:visited {
 
 @media only screen and (max-width: 360px) {
 
-  p#name {
+  .name {
     margin-top: 15%;
     font-size: 220%;
   }
 
-  p#dev {
+  .dev {
     font-size: 220%;
   }
 
-  p#made {
+  .made {
     font-size: 200%;
     padding-bottom: 15%;
   }
@@ -665,16 +665,16 @@ a:visited {
 
 @media only screen and (max-width: 340px) {
 
-  p#name {
+  .name {
     /*margin-top: 17%;*/
     font-size: 200%;
   }
 
-  p#dev {
+  .dev {
     font-size: 200%;
   }
 
-  p#made {
+  .made {
     font-size: 180%;
     padding-bottom: 20%;
   }
@@ -695,15 +695,15 @@ a:visited {
 
 @media only screen and (max-width: 320px) {
 
-  p#name {
+  .name {
     font-size: 175%;
   }
 
-  p#dev {
+  .dev {
     font-size: 175%;
   }
 
-  p#made {
+  .made {
     margin: 0;
     font-size: 160%;
     padding-bottom: 20%;
