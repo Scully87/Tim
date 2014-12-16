@@ -6,7 +6,7 @@ Foundation Fun
 ##[Tim Scully](http://www.timscully.co.uk)
 
 ###
-This repo was created to satisfy my curiousity with responsive design frameworks. Here I decided to test out [Foundation](https://http://foundation.zurb.com/) and re-work an original personal project to test the responsiveness across all platforms.
+This repo was created to satisfy my curiosity with responsive design frameworks. Here I decided to test out [Foundation](https://http://foundation.zurb.com/) and re-work an original personal project to test the responsiveness across all platforms.
 
 
 ####Technologies Used:
@@ -26,5 +26,5 @@ This repo was created to satisfy my curiousity with responsive design frameworks
 
 - [x] Re-work an existing template
 - [x] Understand the concepts of using rows and columns
-- [x] Test reposivness on all platforms
+- [x] Test reponsivness on all platforms
 - [ ] Re-factor stylesheet
