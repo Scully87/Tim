@@ -11,7 +11,7 @@
 
 @media only screen and (max-width: 865px) {
 
-  .port {
+  #port {
     margin-top: 5%;
     margin-bottom: 1%;
     font-size: 450%;
@@ -21,7 +21,7 @@
 
 @media only screen and (max-width: 781px) {
 
-  .port {
+  #port {
     margin-top: 10%;
     margin-bottom: 1%;
     font-size: 420%;
@@ -31,7 +31,7 @@
 
 @media only screen and (max-width: 733px) {
 
-  .port {
+  #port {
     margin-top: 11%;
     margin-bottom: 1%;
     font-size: 390%;
@@ -41,7 +41,7 @@
 
 @media only screen and (max-width: 682px) {
 
-  .port {
+  #port {
     margin-top: 13%;
     margin-bottom: 1%;
     font-size: 370%;
@@ -51,7 +51,7 @@
 
 @media only screen and (max-width: 649px) {
 
-  .port {
+  #port {
     margin-top: 15%;
     margin-bottom: 1%;
     font-size: 350%;
@@ -61,7 +61,7 @@
 
 @media only screen and (max-width: 620px) {
 
-  .port {
+  #port {
     margin-top: 15%;
     margin-bottom: 1%;
     font-size: 325%;
@@ -71,7 +71,7 @@
 
 @media only screen and (max-width: 576px) {
 
-  .port {
+  #port {
     margin-top: 17%;
     margin-bottom: 1%;
     font-size: 300%;
@@ -81,7 +81,7 @@
 
 @media only screen and (max-width: 535px) {
 
-  .port {
+  #port {
     margin-top:19%;
     margin-bottom: 2%;
     font-size: 275%;
@@ -91,7 +91,7 @@
 
 @media only screen and (max-width: 492px) {
 
-  .port {
+  #port {
     margin-top:22%;
     font-size: 250%;
   }
@@ -100,7 +100,7 @@
 
 @media only screen and (max-width: 463px) {
 
-  .port {
+  #port {
     margin-top: 25%;
     font-size: 225%;
   }
@@ -109,7 +109,7 @@
 
 @media only screen and (max-width: 436px) {
 
-  .port {
+  #port {
     margin-top: 28%;
     font-size: 200%;
   }
@@ -118,7 +118,7 @@
 
 @media only screen and (max-width: 360px) {
 
- .port {
+  #port {
     margin-top: 10%;
     margin-bottom: 15%;
     font-size: 200%;
@@ -128,7 +128,7 @@
 
 @media only screen and (max-width: 320px) {
 
-  .port {
+  #port {
     margin-top: 16%;
     margin-bottom: 16%;
     font-size: 170%;
@@ -440,16 +440,16 @@ ul {
   /*margin-right: 5%;*/
 }
 
-.name {
+#name {
   margin-top: 8%;
   font-size: 500%;
 }
 
-.dev {
+#dev {
   font-size: 450%;
 }
 
-.made {
+#made {
   font-size: 450%;
 }
 
@@ -505,16 +505,16 @@ a:visited {
 
 @media only screen and (max-width: 737px) {
 
-  .name {
+  #name {
     margin-top: 10%;
     font-size: 350%;
   }
 
-  .dev {
+  #dev {
     font-size: 320%;
   }
 
-  .made {
+  #made {
     font-size: 320%;
   }
 
@@ -525,16 +525,16 @@ a:visited {
 }
 @media only screen and (max-width: 550px) {
 
-  .name {
+  #name {
     margin-top: 10%;
     font-size: 350%;
   }
 
-  .dev {
+  #dev {
     font-size: 320%;
   }
 
-  .made {
+  #made {
     font-size: 320%;
   }
 
@@ -550,16 +550,16 @@ a:visited {
 
 @media only screen and (max-width: 530px) {
 
-  .name {
+  #name {
     margin-top: 10%;
     font-size: 350%;
   }
 
-  .dev {
+  #dev {
     font-size: 320%;
   }
 
-  .made {
+  #made {
     font-size: 220%;
   }
 
@@ -575,20 +575,20 @@ a:visited {
 
 @media only screen and (max-width: 414px) {
 
-  .port {
+  #port {
     margin-bottom: 15%;
   }
 
-  .name {
+  #name {
     margin-top: 15%;
     font-size: 270%;
   }
 
-  .dev {
+  #dev {
     font-size: 280%;
   }
 
-  .made {
+  #made {
     font-size: 230%;
     margin-bottom: 30%;
   }
@@ -609,16 +609,16 @@ a:visited {
 
 @media only screen and (max-width: 380px) {
 
-  .name {
+  #name {
     margin-top: 10%;
     font-size: 250%;
   }
 
-  .dev {
+  #dev {
     font-size: 250%;
   }
 
-  .made {
+  #made {
     font-size: 220%;
     margin-bottom: 20%;
   }
@@ -635,16 +635,16 @@ a:visited {
 
 @media only screen and (max-width: 360px) {
 
-  .name {
+  #name {
     margin-top: 15%;
     font-size: 220%;
   }
 
-  .dev {
+  #dev {
     font-size: 220%;
   }
 
-  .made {
+  #made {
     font-size: 200%;
     padding-bottom: 15%;
   }
@@ -665,16 +665,16 @@ a:visited {
 
 @media only screen and (max-width: 340px) {
 
-  .name {
+  #name {
     /*margin-top: 17%;*/
     font-size: 200%;
   }
 
-  .dev {
+  #dev {
     font-size: 200%;
   }
 
-  .made {
+  #made {
     font-size: 180%;
     padding-bottom: 20%;
   }
@@ -695,15 +695,15 @@ a:visited {
 
 @media only screen and (max-width: 320px) {
 
-  .name {
+  #name {
     font-size: 175%;
   }
 
-  .dev {
+  #dev {
     font-size: 175%;
   }
 
-  .made {
+  #made {
     margin: 0;
     font-size: 160%;
     padding-bottom: 20%;
