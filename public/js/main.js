@@ -79,9 +79,9 @@ function showFrame(id) {
             break;
 
         case 3:
-            tl.to(copy2Container, 0.2, {scaleX:0, scaleY:1, opacity:0});
-            tl.to(copy3Container, 0, {scaleX:0, scaleY:1, opacity:1, delay:0.2});
-            tl.to(copy3Container, 0.2, {scaleX:1, scaleY:1, delay:0.4});
+            tl.to(copy2Container, 0.3, {scaleX:0, scaleY:1, opacity:0});
+            tl.to(copy3Container, 0, {scaleX:0, scaleY:1, opacity:1, delay:0.3});
+            tl.to(copy3Container, 0.3, {scaleX:1, scaleY:1, delay:0.3});
 
 
 //            tl.to(copy3Container, 0.5, {opacity:0, delay:2.5});
