@@ -109,6 +109,11 @@ body, #container-index {
       padding-top: 7px;
     }
 
+    #portfolio {
+      padding-left:15px;
+      padding-top: 10px;
+    }
+
     #dev-image-container {
       position:relative;
       display: block;
