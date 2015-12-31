@@ -59,15 +59,7 @@ body, #container-index {
   height: auto;
 }
 
-#copy-1 {
-  position:absolute;
-  opacity: 0;
-  text-align: center;
-  width: 100%;
-  margin: 15px;
-}
-
-#copy-2-container, #copy-3-container, #copy-4-container {
+#copy1, #copy-2-container, #copy-3-container, #copy-4-container {
   position:absolute;
   opacity: 0;
   text-align: center;
