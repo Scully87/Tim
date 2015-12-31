@@ -10,6 +10,7 @@ var useReplayBtn = false;
 var container;
 var animationContainer;
 var devImage;
+var copy1Container;
 var copy1;
 var copy2Container;
 var copy2a;
@@ -32,6 +33,7 @@ startAnimation = function()
     container = document.getElementById("container-index");
     devImage = document.getElementById("dev-image-container");
     animationContainer = document.getElementById("animation-container");
+    copy1Container = document.getElementById("copy-1-container");
     copy1 = document.getElementById("copy-1");
     copy2Container = document.getElementById("copy-2-container");
     copy2a = document.getElementById("copy-2a");
@@ -62,8 +64,8 @@ function showFrame(id) {
         case 1:
             resetAnimation();
             tl.to(devImage, 2, {opacity:1});
-            tl.to(copy1, 2, {opacity:1});
-            tl.to(copy1, 1, {x:-5000, delay:2.5});
+            tl.to(copy1Container, 2, {opacity:1});
+            tl.to(copy1Container, 1, {x:-5000, delay:2.5});
             holdFrame(2, 3);
             break;
 
@@ -131,7 +133,7 @@ function checkForLooping()
 function resetAnimation() {
   tl = TweenLite
   tl.to(devImage, 0, {x:0, y:0, opacity:1});
-  tl.to(copy1, 0, {x:0, opacity:0});
+  tl.to(copy1Container, 0, {x:0, opacity:0});
   tl.to(copy2a, 0, {x:0, opacity:1});
   tl.to(copy2b, 0, {x:0, opacity:1});
   tl.to(copy2c, 0, {x:0, opacity:1});

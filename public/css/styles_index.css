@@ -59,7 +59,7 @@ body, #container-index {
   height: auto;
 }
 
-#copy1, #copy-2-container, #copy-3-container, #copy-4-container {
+#copy-1-container, #copy-2-container, #copy-3-container, #copy-4-container {
   position:absolute;
   opacity: 0;
   text-align: center;
