@@ -2,7 +2,7 @@
 
 // config
 var currentLoop = 0;
-var totalLoops = 10;
+var totalLoops = 100;
 var endFrameDelay = 4;
 var useReplayBtn = false;
 
