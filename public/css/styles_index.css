@@ -20,6 +20,7 @@ body, #container-index {
 }
 
 .copy-nav {
+  text-align: center;
   font-family: 'Boogaloo', arial, cursive;
   color: #ffffff;
   font-size: 2.3rem;
@@ -27,11 +28,23 @@ body, #container-index {
   letter-spacing: 0;
   text-decoration: none;
   opacity: 0.75;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.3s;
+  transition-property: transform;
 }
 
 .copy-nav:hover  {
+  text-align: center;
   cursor: pointer;
   opacity: 1;
+  transform: scale(1.1);
+}
+
+#linkedin, #email-icon {
+  padding-top:10px;
 }
 
 .copy-animation {
@@ -89,6 +102,11 @@ body, #container-index {
     .fluid {
       width: 100%;
       height: auto;
+    }
+
+    #linkedin, #email-icon {
+      padding-left:15px;
+      padding-top: 7px;
     }
 
     #dev-image-container {
