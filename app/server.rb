@@ -55,3 +55,11 @@ end
 get '/amex_cashflow' do
   erb :amex_cashflow
 end
+
+get '/amex_planes' do
+  erb :amex_planes
+end
+
+get '/philips_mb' do
+  erb :philips_mb
+end

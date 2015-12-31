@@ -1,0 +1,279 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+body{
+    position:absolute;
+    border:0 none;
+    outline:0;
+    padding:0;
+    margin:0;
+    background: #000000;
+    background-color:transparent;
+
+    /* below improves consistancey of font rendering across browsers */
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+
+     /* below stops FireFox rendering copy too heavily */
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Common Sense Browser Support: Chrome:3.5+, Safari:3+, Firefox:3.5+, Opera:10.1+, IE:9+, Android:2.2+, iOS:4.3+ */
+@font-face {
+    font-family: 'centralesansbook';
+    src: url('../fonts/centralesansbook-webfont.woff') format('woff'),
+         url('../fonts/centralesansbook-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'centralesansxbold';
+    src: url('../fonts/centralesans-xbold-webfont.woff') format('woff'),
+         url('../fonts/centralesans-xbold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.boldme{
+    font-family: centralesansxbold;
+}
+
+
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+  left:0;
+}
+body{
+    position:absolute;
+    border:0 none;
+    outline:0;
+    padding:0;
+    margin:0;
+    background: #000000;
+    background-color:transparent;
+
+    /* below improves consistancey of font rendering across browsers */
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+
+     /* below stops FireFox rendering copy too heavily */
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Common Sense Browser Support: Chrome:3.5+, Safari:3+, Firefox:3.5+, Opera:10.1+, IE:9+, Android:2.2+, iOS:4.3+ */
+@font-face {
+    font-family: 'centralesansbook';
+    src: url('../fonts/centralesansbook-webfont.woff') format('woff'),
+         url('../fonts/centralesansbook-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'centralesansxbold';
+    src: url('../fonts/centralesans-xbold-webfont.woff') format('woff'),
+         url('../fonts/centralesans-xbold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.boldme{
+    font-family: centralesansxbold;
+}
+
+
+#philips_container,
+#philips_exitBtn,
+#philips_background,
+#philips_bgImage,
+#philips_videoBg,
+#philips_bgImageMasker,
+#philips_logoPhilips02,
+#philips_logoInnovation,
+#philips_frame01_copy,
+#philips_frame02_copy,
+#philips_frame03_copy,
+#philips_frame04_copy,
+#philips_videoWrapper,
+#philips_youTubeVideo,
+#philips_exitCta,
+#philips_exitCta_copy {
+  position: absolute;
+  left: 0px;
+}
+
+
+
+ #philips_container{
+    position:absolute;
+    width:728px;
+    height:90px;
+    top:0px;
+    left:0px;
+    margin:auto;
+    overflow: hidden;
+}
+
+#philips_exitBtn{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:728px;
+    height:90px;
+    cursor:pointer;
+    z-index:400;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border:1px solid #666666;
+    background-color:transparent;
+}
+
+#philips_background {
+    position:absolute;
+    width:100%;
+    height:100%;
+    top: 0px;
+    left: 0px;
+    background: #FFFFFF;
+}
+
+#philips_bgImage {
+    position:absolute;
+}
+
+#philips_videoBg {
+    position:absolute;
+    width:100%;
+    height:100%;
+    top: 0px;
+    left: 0px;
+    background: #0f204b;
+    opacity:0;
+}
+
+#philips_bgImageMasker {
+    position:absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 600;
+    width:728px;
+    height:90px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border:1px solid #666666;
+    pointer-events: none;
+}
+
+#philips_logoPhilips02 {
+    position:absolute;
+    left: 22px;
+    top: 22px;
+    opacity:0;
+}
+
+
+#philips_logoInnovation {
+    position:absolute;
+    left: 87px;
+    top: 51px;
+    opacity:0;
+}
+
+
+#philips_frame01_copy {
+    position:absolute;
+    left: 87px;
+    top: 14px;
+    width: 300px;
+    font-size: 16px;
+    line-height: 18px;
+    font-family: centralesansxbold;
+    color: #FFFFFF;
+    opacity:0;
+}
+
+#philips_frame02_copy {
+    position:absolute;
+    left: 87px;
+    top: 14px;
+    width:300px;
+    font-size: 16px;
+    line-height: 18px;
+    font-family: centralesansxbold;
+    color: #FFFFFF;
+    opacity:0;
+}
+
+#philips_frame03_copy {
+    position:absolute;
+    left: 87px;
+    top: 14px;
+    width: 300px;
+    font-size: 16px;
+    line-height: 18px;
+    font-family: centralesansxbold;
+    color: #FFFFFF;
+    opacity:0;
+}
+
+#philips_frame04_copy {
+    position:absolute;
+    left: 87px;
+    top: 14px;
+    width: 300px;
+    font-size: 16px;
+    line-height: 18px;
+    font-family: centralesansxbold;
+    color: #FFFFFF;
+    opacity:0;
+}
+
+
+#philips_videoWrapper {
+    z-index: 500;
+    position: absolute;
+    top: 8px;
+    left: -13px;
+    display:none;
+    opacity:0;
+}
+
+#philips_youTubeVideo {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    width: 326px;
+    height: 183px;
+}
+
+#philips_exitCta {
+    position:absolute;
+    left: 0px;
+    top: 0px;
+    cursor:pointer;
+    opacity:0;
+    z-index: 603;
+    pointer-events: none;
+}
+
+
+#philips_exitCta_copy {
+    position:absolute;
+    left: 210px;
+    width: 140px;
+    top: 55px;
+    font-size: 12px;
+    font-family: centralesansbook;
+    color: #ffffff;
+}
+
+:focus {outline:none;}
+::-moz-focus-inner {border:0;}

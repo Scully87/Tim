@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>H & O Digital</title>
+    <!-- Studio Enabler Required -->
+    <script src="http://s0.2mdn.net/ads/studio/Enabler.js" type="text/javascript"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <style type="text/css">
+        body {
+            position:absolute;
+            border:0 none;
+            outline:0;
+            padding:0;
+            margin:0;
+            background:#ffffff;
+        }
+
+        #amex_planes_loadingContent {
+            position:absolute;
+            width:300px;
+            height:250px;
+            top:0px;
+            left:0px;
+            background-color:transparent;
+            z-index:10;
+            box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            border:1px solid #666666;
+        }
+
+        #amex_planes_loadingImage {
+            position:absolute;
+            left:135px;
+            top:110px;
+        }
+
+        #amex_planes_container {
+            display:none;
+            z-index:20;
+            width:300px;
+            height:250px;
+            background:#000000;
+        }
+    </style>
+    <script language="javascript">
+        /* Initialize DoubleClick Enabler */
+        if(Enabler.isInitialized()) {
+            enablerInitHandler();
+        } else {
+            Enabler.addEventListener(studio.events.StudioEvent.INIT, enablerInitHandler);
+        }
+
+        /* Fired when DoubleClick Enabler is ready */
+        function enablerInitHandler() {
+            console.log("ENABLER INITILIZED");
+            // Wait for page to load before loading in CSS and JS
+            if(Enabler.isPageLoaded()) {
+                pageLoadedHandler();
+            } else {
+                Enabler.addEventListener(studio.events.StudioEvent.PAGE_LOADED, pageLoadedHandler);
+            }
+        }
+
+        /* Fired when page has loaded */
+        function pageLoadedHandler() {
+            console.log("PAGE LOADED");
+            // Wait for page to load before loading external css and js
+            if(Enabler.isVisible()){
+                adVisibilityHandler();
+            } else {
+                Enabler.addEventListener(studio.events.StudioEvent.VISIBLE, adVisibilityHandler);
+            }
+        }
+
+        /*Fired when enabler is visible. Ensures users can see the ad (https://support.google.com/richmedia/answer/2672554?hl=en-GB&ref_topic=2744444). Function then loads in banners CSS */
+        function adVisibilityHandler() {
+            console.log("ENABLER VISIBLE");
+            // Load in banner CSS
+            var extCSS = document.createElement("link");
+            extCSS.setAttribute("rel", "stylesheet");
+            extCSS.setAttribute("type", "text/css");
+            extCSS.setAttribute("href", Enabler.getUrl("css/styles_amex_planes.css"));
+                extCSS.onload = function() {
+                    cssLoadedHandler();
+                }
+            document.getElementsByTagName("head")[0].appendChild(extCSS);
+            document.getElementById("amex_planes_container").style.opacity=1;
+            document.getElementById("amex_planes_loadingImage").style.opacity=0;
+            document.getElementById("amex_planes_container").style.display = "block";
+        }
+
+        /* Fired when the banners external CSS has been loaded */
+        function cssLoadedHandler() {
+            console.log("CSS LOADED");
+            // start loading external JS
+            loadExtJavaScript();
+        }
+
+        // array of all the external js files we want to politely load
+        var arrExtJs = ["js/TweenLite.min.js", "js/CSSPlugin.min.js", "js/main_amex_planes.js"];
+        var loadJsIndex = 0;
+        /* Function loads in an external JS file */
+        function loadExtJavaScript() {
+            // Load in external Javascript file
+            var extJavaScript = document.createElement("script");
+            extJavaScript.setAttribute("type", "text/javascript");
+            extJavaScript.setAttribute("src", Enabler.getUrl(arrExtJs[loadJsIndex]));
+                extJavaScript.onload = function() {
+                    jsLoadedHandler();
+                }
+            document.getElementsByTagName("head")[0].appendChild(extJavaScript);
+        }
+
+        /* Fired when an External JS file has been loaded */
+        function jsLoadedHandler() {
+            console.log("JS LOADED (" + arrExtJs[loadJsIndex] + ")");
+
+            loadJsIndex++;
+
+            if(loadJsIndex < arrExtJs.length) {
+                loadExtJavaScript(); // load next JS file
+            } else {
+                startAd(); // start ad
+            }
+        }
+    </script>
+</head>
+<body>
+    <div id="amex_planes_loadingContent"><!-- Loading Animation -->
+        <div id="amex_planes_loadingImage">
+            <img src="http://amex.temp.ogilvyeurope.com/201512/Testing/Amex_Planes/images/loading.gif" alt="ad loading">
+        </div>
+    </div>
+    <div id="amex_planes_container">
+        <img src="http://amex.temp.ogilvyeurope.com/201512/Testing/Amex_Planes/images/copy_frame1a.gif" id="amex_planes_copy_frame1a" alt="Transfer your">
+        <img src="http://amex.temp.ogilvyeurope.com/201512/Testing/Amex_Planes/images/copy_frame1b.gif" id="amex_planes_copy_frame1b" alt="Membership reward points">
+        <img src="http://amex.temp.ogilvyeurope.com/201512/Testing/Amex_Planes/images/copy_frame2a.gif" id="amex_planes_copy_frame2a" alt="to 12 major frequent">
+        <img src="http://amex.temp.ogilvyeurope.com/201512/Testing/Amex_Planes/images/copy_frame2b.gif" id="amex_planes_copy_frame2b" alt="flyer programmes">
+        <img src="http://amex.temp.ogilvyeurope.com/201512/Testing/Amex_Planes/images/plane1.png" id="amex_planes_big_plane1" alt="">
+        <img src="http://amex.temp.ogilvyeurope.com/201512/Testing/Amex_Planes/images/plane2.png" id="amex_planes_big_plane2" alt="">
+        <img src="http://amex.temp.ogilvyeurope.com/201512/Testing/Amex_Planes/images/plane3.png" id="amex_planes_big_plane3" alt="">
+        <div id="amex_planes_planeContainer2">
+            <img src="http://amex.temp.ogilvyeurope.com/201512/Testing/Amex_Planes/images/plane2.png" id="amex_planes_plane1" alt="">
+            <img src="http://amex.temp.ogilvyeurope.com/201512/Testing/Amex_Planes/images/plane1.png" id="amex_planes_plane2" alt="">
+            <img src="http://amex.temp.ogilvyeurope.com/201512/Testing/Amex_Planes/images/plane3.png" id="amex_planes_plane3" alt="">
+            <img src="http://amex.temp.ogilvyeurope.com/201512/Testing/Amex_Planes/images/plane2.png" id="amex_planes_plane4" alt="">
+            <img src="http://amex.temp.ogilvyeurope.com/201512/Testing/Amex_Planes/images/plane2.png" id="amex_planes_plane5" alt="">
+            <img src="http://amex.temp.ogilvyeurope.com/201512/Testing/Amex_Planes/images/plane3.png" id="amex_planes_plane6" alt="">
+            <img src="http://amex.temp.ogilvyeurope.com/201512/Testing/Amex_Planes/images/plane1.png" id="amex_planes_plane7" alt="">
+            <img src="http://amex.temp.ogilvyeurope.com/201512/Testing/Amex_Planes/images/plane1.png" id="amex_planes_plane8" alt="">
+            <img src="http://amex.temp.ogilvyeurope.com/201512/Testing/Amex_Planes/images/plane2.png" id="amex_planes_plane9" alt="">
+            <img src="http://amex.temp.ogilvyeurope.com/201512/Testing/Amex_Planes/images/plane3.png" id="amex_planes_plane10" alt="">
+            <img src="http://amex.temp.ogilvyeurope.com/201512/Testing/Amex_Planes/images/plane2.png" id="amex_planes_plane11" alt="">
+            <img src="http://amex.temp.ogilvyeurope.com/201512/Testing/Amex_Planes/images/plane1.png" id="amex_planes_plane12" alt="">
+        </div>
+        <img src="http://amex.temp.ogilvyeurope.com/201512/Testing/Amex_Planes/images/copy_frame3a.gif" id="amex_planes_copy_frame3a" alt="and fly to hundreds">
+        <img src="http://amex.temp.ogilvyeurope.com/201512/Testing/Amex_Planes/images/copy_frame3b.gif" id="amex_planes_copy_frame3b" alt="of destinations like">
+        <img src="http://amex.temp.ogilvyeurope.com/201512/Testing/Amex_Planes/images/ibiza.png" id="amex_planes_ibiza" alt="Ibiza">
+        <img src="http://amex.temp.ogilvyeurope.com/201512/Testing/Amex_Planes/images/end-text.gif" id="amex_planes_endText" alt="Fly to hundreds of destinations using your points.">
+        <img src="http://amex.temp.ogilvyeurope.com/201512/Testing/Amex_Planes/images/TCs.gif" id="amex_planes_tcs" alt="Annual fee £140(£0 in first year). Terms, taxes and fees apply.">
+        <img src="http://amex.temp.ogilvyeurope.com/201512/Testing/Amex_Planes/images/amexLogo01.gif" id="amex_planes_amexLogo01" alt="AMERICAN EXPRESS Realise the potential">
+        <img src="http://amex.temp.ogilvyeurope.com/201512/Testing/Amex_Planes/images/amexLogo02.gif" id="amex_planes_amexLogo02" alt="AMERICAN EXPRESS Preferred Rewards Gold Card">
+        <img src="http://amex.temp.ogilvyeurope.com/201512/Testing/Amex_Planes/images/cta_lines.png" id="amex_planes_ctaLines" alt="Apply">
+        <img src="http://amex.temp.ogilvyeurope.com/201512/Testing/Amex_Planes/images/cta.png" id="amex_planes_cta" alt="Apply">
+    </div>
+</body>
+</html>

@@ -1,0 +1,57 @@
+#amex_planes_container, #amex_planes_copy_frame1a, #amex_planes_copy_frame2a, #amex_planes_copy_frame1b, #amex_planes_copy_frame2b, #amex_planes_copy_frame3a, #amex_planes_copy_frame3b, #amex_planes_big_plane1, #amex_planes_big_plane2, #amex_planes_big_plane3, #amex_planes_planeContainer2 img, #amex_planes_plane1, #amex_planes_plane2, #amex_planes_plane3, #amex_planes_plane4, #amex_planes_plane5, #amex_planes_plane6, #amex_planes_plane7, #amex_planes_plane8, #amex_planes_plane9, #amex_planes_plane10, #amex_planes_plane11, #amex_planes_plane12, #amex_planes_ibiza, #amex_planes_endText, #amex_planes_tcs, #amex_planes_amexLogo01, #amex_planes_amexLogo02, #amex_planes_ctaLines, #amex_planes_cta { position:absolute; left:0;}
+
+#amex_planes_container { overflow:hidden;}
+
+#amex_planes_copy_frame1a, #amex_planes_copy_frame2a { -webkit-transform:translate(400px,20px); -ms-transform:translate(400px,20px); transform:translate(400px,20px); }
+
+#amex_planes_copy_frame1b, #amex_planes_copy_frame2b { -webkit-transform:translate(400px,50px); -ms-transform:translate(400px,50px); transform:translate(400px,50px); }
+
+#amex_planes_copy_frame3a { -webkit-transform:translate(400px,90px); -ms-transform:translate(400px,90px); transform:translate(400px,90px);z-index:10; }
+#amex_planes_copy_frame3b { -webkit-transform:translate(400px,125px); -ms-transform:translate(400px,125px); transform:translate(400px,125px);z-index:10; }
+
+#amex_planes_big_plane1, #amex_planes_big_plane3 { -webkit-transform:translate(-400px,170px); -ms-transform:translate(-400px,170px); transform:translate(-400px,170px); }
+
+#amex_planes_big_plane2 { -webkit-transform:translate(-400px,120px); -ms-transform:translate(-400px,120px); transform:translate(-400px,120px); }
+
+#amex_planes_planeContainer2 img { width:43px; height:auto; }
+
+#amex_planes_plane1 { -webkit-transform:translate(-400px,100px); -ms-transform:translate(-400px,100px); transform:translate(-400px,100px); }
+#amex_planes_plane2 { -webkit-transform:translate(-400px,137px); -ms-transform:translate(-400px,137px); transform:translate(-400px,137px); }
+#amex_planes_plane3 { -webkit-transform:translate(-400px,168px); -ms-transform:translate(-400px,168px); transform:translate(-400px,168px); }
+#amex_planes_plane4 { -webkit-transform:translate(-400px,204px); -ms-transform:translate(-400px,204px); transform:translate(-400px,204px); }
+#amex_planes_plane5 { -webkit-transform:translate(-400px,115px); -ms-transform:translate(-400px,115px); transform:translate(-400px,115px); }
+#amex_planes_plane6 { -webkit-transform:translate(-400px,204px); -ms-transform:translate(-400px,204px); transform:translate(-400px,204px); }
+#amex_planes_plane7 { -webkit-transform:translate(-400px,99px); -ms-transform:translate(-400px,99px); transform:translate(-400px,99px); }
+#amex_planes_plane8 { -webkit-transform:translate(-400px,174px); -ms-transform:translate(-400px,174px); transform:translate(-400px,174px); }
+#amex_planes_plane9 { -webkit-transform:translate(-400px,204px); -ms-transform:translate(-400px,204px); transform:translate(-400px,204px); }
+#amex_planes_plane10 { -webkit-transform:translate(-400px,117px); -ms-transform:translate(-400px,117px); transform:translate(-400px,117px); }
+#amex_planes_plane11 { -webkit-transform:translate(-400px,148px); -ms-transform:translate(-400px,148px); transform:translate(-400px,148px); }
+#amex_planes_plane12 { -webkit-transform:translate(-400px,204px); -ms-transform:translate(-400px,204px); transform:translate(-400px,204px); }
+
+#amex_planes_ibiza { -webkit-transform:translate(500px,0); -ms-transform:translate(500px,0); transform:translate(500px,0);z-index:9;}
+
+#amex_planes_endText { -webkit-transform:translate(-400px,20px); -ms-transform:translate(-400px,20px); transform:translate(-400px,20px); }
+#amex_planes_tcs { -webkit-transform:translate(500px,225px); -ms-transform:translate(500px,225px); transform:translate(500px,225px); }
+
+#amex_planes_amexLogo01 {
+    -webkit-transform:translate(44px,81px);
+        -ms-transform:translate(44px,81px);
+            transform:translate(44px,81px);
+    opacity:0;
+    filter:alpha(opacity=0);
+}
+
+#amex_planes_amexLogo02 {
+    -webkit-transform:translate(64px,101px);
+        -ms-transform:translate(64px,101px);
+            transform:translate(64px,101px);
+    opacity:0;
+    filter:alpha(opacity=0);
+}
+
+#amex_planes_ctaLines { -webkit-transform:translate(-150px,190px); -ms-transform:translate(-150px,190px); transform:translate(-150px,190px); }
+
+#amex_planes_cta {
+    transform:translate(360px,190px);
+}
+
