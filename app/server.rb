@@ -27,3 +27,31 @@ end
 get '/phe_sugar_smart' do
   erb :phe_sugar_smart
 end
+
+get '/amex_nov_enewsletter' do
+  erb :amex_nov_enewsletter
+end
+
+get '/amex_invites' do
+  erb :amex_invites
+end
+
+get '/bt_spring_t2' do
+  erb :bt_spring_t2
+end
+
+get '/bt_mobile_xmas' do
+  erb :bt_mobile_xmas
+end
+
+get '/bt_amc' do
+  erb :bt_amc
+end
+
+get '/amex_mob_asset' do
+  erb :amex_mob_asset
+end
+
+get '/amex_cashflow' do
+  erb :amex_cashflow
+end
