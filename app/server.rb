@@ -63,3 +63,7 @@ end
 get '/philips_mb' do
   erb :philips_mb
 end
+
+get '/ey_cnbc' do
+  erb :ey_cnbc
+end
