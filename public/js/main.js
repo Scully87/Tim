@@ -49,6 +49,7 @@ startAnimation = function()
     showFrame(1);
 }
 
+
 var holdFrame = function(frame, time) {
     var delay = time*1000;
     frameWaitTimer = window.setTimeout(function(){showFrame(frame);}, delay);
