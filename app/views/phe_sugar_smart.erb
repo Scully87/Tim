@@ -1,60 +1,232 @@
-<style>
-  @charset "UTF-8";#container,#keyline{width:300px;height:600px;top:0;left:0}#btnReplay,#cake,#copy2,#copy3,#copy4,#copy5,#correct,#cubes,#endFrameContainer #endFrame1,#equals,#incorrect,#incorrect2,#tickBox1,#tickBox2,#tickBox3{position:absolute;opacity:0;filter:alpha(opacity=0)}:focus,body{outline:0}body{position:absolute;border:0;padding:0;margin:0;background:0 0;-webkit-font-smoothing:antialiased;-moz-font-smoothing:antialiased;-o-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}img{border:none}#container{position:absolute;margin:auto;overflow:hidden}#keyline{position:absolute;z-index:399;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;border:1px solid #000;background-color:transparent}#background{position:absolute;width:100%;height:100%;top:0;left:0;background:#fff200}#bgImage{position:absolute}#cake{top:190px;left:67px}#copy1Phe{position:absolute;top:46px;left:35px}#tickBox1{top:339px;left:66px}#copy2{top:338px;left:122px}#tickBox2{top:400px;left:68px}#copy3{top:400px;left:122px}#tickBox3{top:455px;left:69px}#copy4{top:457px;left:123px}#cursor{position:absolute;top:272px;left:310px;opacity:0;filter:alpha(opacity=0)}#incorrect{top:334px;left:63px}#incorrect2{top:449px;left:63px;-webkit-transform:rotate(40deg);-ms-transform:rotate(40deg);transform:rotate(40deg)}#correct{top:392px;left:62px}#equals{top:272px;left:128px}#cubes{top:325px;left:73px}#copy5{top:481px;left:93px}#badge{position:absolute;top:26px;left:109px}#copy_endFrame1{position:absolute;top:125px;left:28px}#copy_endFrame2{position:absolute;top:198px;left:66px}#phone{position:absolute;top:326px;left:82px}#terms{position:absolute;top:559px;left:23px}#logo_apple{position:absolute;top:236px;left:66px}#btnReplay{left:11px;top:7px;z-index:401;cursor:pointer}::-moz-focus-inner{border:0}
-</style>
-<script type="text/javascript">
-  function btnReplay_clickHandler(){showFrame(1)}function btnReplay_overHandler(){TweenLite.to(btnReplay,.4,{rotation:360,delay:0})}function btnReplay_outHandler(){TweenLite.to(btnReplay,.2,{rotation:0,delay:0})}function showFrame(e){switch(tl=TweenLite,e){case 1:resetBanner(),tl.to(cake,1,{opacity:1}),holdFrame(2,1.5);break;case 2:tl.to(secondContainer,0,{opacity:1}),tl.to(tickBox1,.2,{scaleX:1.2,scaleY:1.2,opacity:1,delay:.6}),tl.to(tickBox1,.2,{scaleX:.8,scaleY:.8,opacity:1,delay:.8}),tl.to(tickBox1,.2,{scaleX:1,scaleY:1,opacity:1,delay:1}),tl.to(copy2,.2,{scaleX:1.1,scaleY:1.1,opacity:1,delay:.6}),tl.to(copy2,.2,{scaleX:.9,scaleY:.9,opacity:1,delay:.8}),tl.to(copy2,.2,{scaleX:1,scaleY:1,opacity:1,delay:1}),tl.to(tickBox2,.2,{scaleX:1.2,scaleY:1.2,opacity:1,delay:1.4}),tl.to(tickBox2,.2,{scaleX:.8,scaleY:.8,opacity:1,delay:1.6}),tl.to(tickBox2,.2,{scaleX:1,scaleY:1,opacity:1,delay:1.8}),tl.to(copy3,.2,{scaleX:1.1,scaleY:1.1,opacity:1,delay:1.4}),tl.to(copy3,.2,{scaleX:.9,scaleY:.9,opacity:1,delay:1.6}),tl.to(copy3,.2,{scaleX:1,scaleY:1,opacity:1,delay:1.8}),tl.to(tickBox3,.2,{scaleX:1.2,scaleY:1.2,opacity:1,delay:2.2}),tl.to(tickBox3,.2,{scaleX:.8,scaleY:.8,opacity:1,delay:2.4}),tl.to(tickBox3,.2,{scaleX:1,scaleY:1,opacity:1,delay:2.6}),tl.to(copy4,.2,{scaleX:1.1,scaleY:1.1,opacity:1,delay:2.2}),tl.to(copy4,.2,{scaleX:.9,scaleY:.9,opacity:1,delay:2.4}),tl.to(copy4,.2,{scaleX:1,scaleY:1,opacity:1,delay:2.6}),tl.to(cursor,0,{opacity:1}),holdFrame(3,3);break;case 3:tl.to(cursor,.8,{x:-146,y:75}),tl.to(cursor,.1,{scaleX:.7,scaleY:.7,delay:.9}),tl.to(incorrect,.2,{scaleX:1.2,scaleY:1.2,opacity:1,delay:1}),tl.to(cursor,.1,{scaleX:1,scaleY:1,delay:1}),tl.to(incorrect,.2,{scaleX:.8,scaleY:.8,delay:1.2}),tl.to(incorrect,.2,{scaleX:1,scaleY:1,delay:1.4}),tl.to(cursor,.8,{x:-129,y:200,delay:1.6}),tl.to(cursor,.1,{scaleX:.7,scaleY:.7,delay:2.4}),tl.to(incorrect2,.2,{scaleX:1.2,scaleY:1.2,opacity:1,delay:2.5}),tl.to(cursor,.1,{scaleX:1,scaleY:1,delay:2.5}),tl.to(incorrect2,.2,{scaleX:.8,scaleY:.8,delay:2.7}),tl.to(incorrect2,.2,{scaleX:1,scaleY:1,delay:2.9}),tl.to(cursor,.6,{x:-140,y:133,delay:3.1}),tl.to(cursor,.1,{scaleX:.7,scaleY:.7,delay:3.7}),tl.to(correct,.2,{scaleX:1.2,scaleY:1.2,opacity:1,delay:3.8}),tl.to(cursor,.1,{scaleX:1,scaleY:1,delay:3.8}),tl.to(correct,.2,{scaleX:.8,scaleY:.8,opacity:1,delay:4}),tl.to(correct,.2,{scaleX:1,scaleY:1,opacity:1,delay:4.2}),tl.to(tickBox1,.5,{opacity:0,delay:5.4}),tl.to(tickBox2,.5,{opacity:0,delay:5.4}),tl.to(tickBox3,.5,{opacity:0,delay:5.4}),tl.to(copy1Phe,.5,{opacity:0,delay:5.4}),tl.to(copy2,.5,{opacity:0,delay:5.4}),tl.to(copy3,.5,{opacity:0,delay:5.4}),tl.to(copy4,.5,{opacity:0,delay:5.4}),tl.to(incorrect,.5,{opacity:0,delay:5.4}),tl.to(incorrect2,.5,{opacity:0,delay:5.4}),tl.to(correct,.5,{opacity:0,delay:5.4}),tl.to(cursor,.5,{opacity:0,delay:5.4}),holdFrame(4,6);break;case 4:tl.to(cake,.5,{y:-66,delay:0}),tl.to(equals,.5,{opacity:1,delay:.9}),tl.to(cubes,.25,{scaleX:1.075,scaleY:1.075,opacity:1,delay:.9}),tl.to(cubes,.25,{scaleX:.925,scaleY:.925,opacity:1,delay:1.15}),tl.to(cubes,.25,{scaleX:1,scaleY:1,opacity:1,delay:1.4}),tl.to(copy5,.25,{scaleX:1.075,scaleY:1.075,opacity:1,delay:1}),tl.to(copy5,.25,{scaleX:.925,scaleY:.925,opacity:1,delay:1.15}),tl.to(copy5,.25,{scaleX:1,scaleY:1,opacity:1,delay:1.4}),tl.to(cake,.5,{opacity:0,delay:3.1}),tl.to(equals,.5,{opacity:0,delay:3.1}),tl.to(cubes,.5,{opacity:0,delay:3.1}),tl.to(copy5,.5,{opacity:0,delay:3.1}),holdFrame(5,4);break;case 5:tl.to(endFrame1,1,{opacity:1}),tl.to(terms,1,{opacity:1,delay:2.5}),tl.to(btnReplay,1,{opacity:1,delay:2.5})}}function checkForLooping(){totalLoops>currentLoop?(TweenLite.delayedCall(endFrameDelay,showFrame,[1]),currentLoop++):useReplayBtn===!0&&(btnReplay.style.display="block")}function resetBanner(){TweenLite.set(endFrame1,{opacity:0}),TweenLite.set(terms,{opacity:0}),TweenLite.set(btnReplay,{opacity:0}),TweenLite.set(cake,{x:0,y:0,opacity:0}),TweenLite.set(firstContainer,{opacity:1}),TweenLite.set(thirdContainer,{opacity:1}),TweenLite.set(tickBox1,{opacity:0}),TweenLite.set(tickBox2,{opacity:0}),TweenLite.set(tickBox3,{opacity:0}),TweenLite.set(copy2,{opacity:0}),TweenLite.set(copy3,{opacity:0}),TweenLite.set(copy4,{opacity:0}),TweenLite.set(cursor,{x:0,y:0,opacity:0}),TweenLite.set(incorrect,{opacity:0}),TweenLite.set(incorrect2,{opacity:0}),TweenLite.set(correct,{opacity:0}),TweenLite.set(equals,{opacity:0}),TweenLite.set(copy5,{opacity:0}),TweenLite.set(cubes,{opacity:0}),TweenLite.set(copy1Phe,{opacity:1})}var currentLoop=0,totalLoops=0,endFrameDelay=4,useReplayBtn=!0,container,bgImage,cake,firstContainer,secondContainer,endFrameContainer,btnReplay;TweenLite.lagSmoothing(0),startAd=function(){container=document.getElementById("container"),bgImage=document.getElementById("bgImage"),cake=document.getElementById("cake"),firstContainer=document.getElementById("firstContainer"),secondContainer=document.getElementById("secondContainer"),endFrameContainer=document.getElementById("endFrameContainer"),btnReplay=document.getElementById("btnReplay"),btnReplay.addEventListener("click",btnReplay_clickHandler,!1),btnReplay.addEventListener("mouseover",btnReplay_overHandler,!1),btnReplay.addEventListener("mouseout",btnReplay_outHandler,!1),container.style.display="block",showFrame(1)};var holdFrame=function(e,t){var a=1e3*t;frameWaitTimer=window.setTimeout(function(){showFrame(e)},a)};
-</script>
-<script type="text/javascript">
-    var clickTag = "http://www.appstore.com";
-</script>
-<div id="container">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>PHE</title>
+
+    <!-- Studio Enabler Required -->
+    <script src="http://s0.2mdn.net/ads/studio/Enabler.js" type="text/javascript"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <style type="text/css">
+        body{
+            position:absolute;
+            border:0 none;
+            outline:0;
+            padding:0;
+            margin:0;
+            background-color: #fff200;
+        }
+
+        #phe_loadingContent{
+            position:absolute;
+            width:300px;
+            height:600px;
+            top:0px;
+            left:0px;
+            background-color:transparent;
+            z-index:10;
+            box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            border:1px solid #666666;
+        }
+        #phe_loadingImage{
+            position:absolute;
+            left:135px;
+            top:285px;
+        }
+
+        #phe_container{
+            display:none;
+            z-index:20;
+            overflow: hidden;
+            width:300px;
+            height:600px;
+        }
+  @charset "UTF-8";#phe_container,#phe_keyline{width:300px;height:600px;top:0;left:0}#phe_btnReplay,#phe_cake,#phe_copy2,#phe_copy3,#phe_copy4,#phe_copy5,#phe_correct,#phe_cubes,#phe_endFrameContainer #phe_endFrame1,#phe_equals,#phe_incorrect,#phe_incorrect2,#phe_tickBox1,#phe_tickBox2,#phe_tickBox3{position:absolute;opacity:0;filter:alpha(opacity=0)}:focus,body{outline:0}body{position:absolute;border:0;padding:0;margin:0;background:0 0;-webkit-font-smoothing:antialiased;-moz-font-smoothing:antialiased;-o-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}img{border:none}#phe_container{position:absolute;margin:auto;overflow:hidden}#phe_keyline{position:absolute;z-index:399;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;border:1px solid #000;background-color:transparent}#phe_background{position:absolute;width:100%;height:100%;top:0;left:0;background:#fff200}#phe_bgImage{position:absolute}#phe_cake{top:190px;left:67px}#phe_copy1{position:absolute;top:46px;left:35px}#phe_tickBox1{top:339px;left:66px}#phe_copy2{top:338px;left:122px}#phe_tickBox2{top:400px;left:68px}#phe_copy3{top:400px;left:122px}#phe_tickBox3{top:455px;left:69px}#phe_copy4{top:457px;left:123px}#phe_cursor{position:absolute;top:272px;left:310px;opacity:0;filter:alpha(opacity=0)}#phe_incorrect{top:334px;left:63px}#phe_incorrect2{top:449px;left:63px;-webkit-transform:rotate(40deg);-ms-transform:rotate(40deg);transform:rotate(40deg)}#phe_correct{top:392px;left:62px}#phe_equals{top:272px;left:128px}#phe_cubes{top:325px;left:73px}#phe_copy5{top:481px;left:93px}#phe_badge{position:absolute;top:26px;left:109px}#phe_copy_endFrame1{position:absolute;top:125px;left:28px}#phe_copy_endFrame2{position:absolute;top:198px;left:66px}#phe_phone{position:absolute;top:326px;left:82px}#phe_terms{position:absolute;top:559px;left:23px}#phe_logo_apple{position:absolute;top:236px;left:66px}#phe_btnReplay{left:11px;top:7px;z-index:401;cursor:pointer}::-moz-focus-inner{border:0}
+    </style>
+
+    <script language="javascript">
+        /**
+        * Initialize DoubleClick Enabler
+        */
+        if(Enabler.isInitialized())
+        {
+            enablerInitHandler();
+        }
+        else
+        {
+            Enabler.addEventListener(studio.events.StudioEvent.INIT, enablerInitHandler);
+        }
+
+        /**
+        * Fired when DoubleClick Enabler is ready
+        */
+        function enablerInitHandler()
+        {
+            console.log('ENABLER INITILIZED');
+
+            // Wait for page to load before loading in CSS and JS
+            if(Enabler.isPageLoaded())
+            {
+                pageLoadedHandler();
+            }
+            else
+            {
+                Enabler.addEventListener(studio.events.StudioEvent.PAGE_LOADED, pageLoadedHandler);
+            }
+        }
+
+        /**
+        * Fired when page has loaded
+        */
+        function pageLoadedHandler()
+        {
+            console.log('PAGE LOADED');
+
+            // Wait for page to load before loading external css and js
+            if(Enabler.isVisible())
+            {
+                adVisibilityHandler();
+            }
+            else
+            {
+                Enabler.addEventListener(studio.events.StudioEvent.VISIBLE, adVisibilityHandler);
+            }
+        }
+
+        /**
+        * Fired when enabler is visible. Ensures users can see the ad (https://support.google.com/richmedia/answer/2672554?hl=en-GB&ref_topic=2744444).
+        * Function then loads the DoubleClick youtube component js
+        */
+        function adVisibilityHandler()
+        {
+            console.log('ENABLER VISIBLE');
+
+            // Load in banner CSS
+            var extCSS = document.createElement("link");
+            extCSS.setAttribute("rel", "stylesheet");
+            extCSS.setAttribute("type", "text/css");
+            extCSS.setAttribute("href", Enabler.getUrl("css/styles_philips.css"));
+                extCSS.onload = function()
+                {
+                    cssLoadedHandler();
+                }
+
+            document.getElementsByTagName("head")[0].appendChild(extCSS);
+            document.getElementById("phe_container").style.opacity=1;
+            document.getElementById("phe_loadingImage").style.opacity=0;
+            document.getElementById("phe_container").style.display = "block";
+        }
+
+        /**
+        * Fired when the banners external CSS has been loaded
+        */
+        function cssLoadedHandler()
+        {
+            console.log("CSS LOADED");
+
+            // start loading external JS
+            loadExtJavaScript();
+        }
+
+
+        // array of all the external js files we want to politely load
+        var arrExtJs = ["js/TweenLite.min.js", "js/CSSPlugin.min.js", "js/main_phe.js"];
+        var loadJsIndex = 0;
+
+        /**
+        * Function loads in an external JS file
+        */
+        function loadExtJavaScript()
+        {
+            // Load in external Javascript file
+            var extJavaScript = document.createElement("script");
+            extJavaScript.setAttribute("type", "text/javascript");
+            extJavaScript.setAttribute("src", Enabler.getUrl(arrExtJs[loadJsIndex]));
+                extJavaScript.onload = function()
+                {
+                    jsLoadedHandler();
+                }
+            document.getElementsByTagName("head")[0].appendChild(extJavaScript);
+        }
+
+
+        /**
+        * Fired when an External JS file has been loaded
+        */
+        function jsLoadedHandler()
+        {
+            console.log("JS LOADED (" + arrExtJs[loadJsIndex] + ")");
+
+            loadJsIndex++;
+
+            if(loadJsIndex < arrExtJs.length)
+            {
+                loadExtJavaScript(); // load next JS file
+            }
+            else
+            {
+                startAd(); // start ad
+            }
+        }
+
+    </script>
+
+
+</head>
+<body>
+    <div id="phe_loadingContent"><!-- Loading Animation -->
+        <div id="phe_loadingImage">
+               <img src="http://philips.temp.ogilvyeurope.com/201511/2015-11-25-001-TS/accelerated/PHILIPS_MBBanner_Accelerated_US_EN_728x90_HTML5_DC_15S_1L_150KB/images/loading.gif" alt="ad loading">
+        </div>
+    </div>
+<div id="phe_container">
 
     <a href="javascript:window.open(window.clickTag, '_blank')">
 
-        <div id="keyline"></div>
-        <div id="background"></div>
-        <div id="bgImage"></div>
+        <div id="phe_keyline"></div>
+        <div id="phe_background"></div>
+        <div id="phe_bgImage"></div>
 
-        <div id="firstContainer">
-            <img id="cake" src="http://phe.temp.ogilvyeurope.com/201512/PHE_Sugar_Smart_Phase2_Dec_2015/Cake_Focus/Apple/PHE_SugarSmart_300x600_cake_apple/images/cake.png" alt="">
-            <img id="copy1Phe" src="http://phe.temp.ogilvyeurope.com/201512/PHE_Sugar_Smart_Phase2_Dec_2015/Cake_Focus/Apple/PHE_SugarSmart_300x600_cake_apple/images/copy1.png" alt="">
+        <div id="phe_firstContainer">
+            <img id="phe_cake" src="http://phe.temp.ogilvyeurope.com/201512/PHE_Sugar_Smart_Phase2_Dec_2015/Cake_Focus/Apple/PHE_SugarSmart_300x600_cake_apple/images/cake.png" alt="">
+            <img id="phe_copy1" src="http://phe.temp.ogilvyeurope.com/201512/PHE_Sugar_Smart_Phase2_Dec_2015/Cake_Focus/Apple/PHE_SugarSmart_300x600_cake_apple/images/copy1.png" alt="">
         </div>
 
-        <div id="secondContainer">
-            <img id="tickBox1" src="http://phe.temp.ogilvyeurope.com/201512/PHE_Sugar_Smart_Phase2_Dec_2015/Cake_Focus/Apple/PHE_SugarSmart_300x600_cake_apple/images/tick_box1.png" alt="">
-            <img id="copy2" src="http://phe.temp.ogilvyeurope.com/201512/PHE_Sugar_Smart_Phase2_Dec_2015/Cake_Focus/Apple/PHE_SugarSmart_300x600_cake_apple/images/copy2.png" alt="">
-            <img id="tickBox2" src="http://phe.temp.ogilvyeurope.com/201512/PHE_Sugar_Smart_Phase2_Dec_2015/Cake_Focus/Apple/PHE_SugarSmart_300x600_cake_apple/images/tick_box2.png" alt="">
-            <img id="copy3" src="http://phe.temp.ogilvyeurope.com/201512/PHE_Sugar_Smart_Phase2_Dec_2015/Cake_Focus/Apple/PHE_SugarSmart_300x600_cake_apple/images/copy3.png" alt="">
-            <img id="tickBox3" src="http://phe.temp.ogilvyeurope.com/201512/PHE_Sugar_Smart_Phase2_Dec_2015/Cake_Focus/Apple/PHE_SugarSmart_300x600_cake_apple/images/tick_box3.png" alt="">
-            <img id="copy4" src="http://phe.temp.ogilvyeurope.com/201512/PHE_Sugar_Smart_Phase2_Dec_2015/Cake_Focus/Apple/PHE_SugarSmart_300x600_cake_apple/images/copy4.png" alt="">
-            <img id="cursor" src="http://phe.temp.ogilvyeurope.com/201512/PHE_Sugar_Smart_Phase2_Dec_2015/Cake_Focus/Apple/PHE_SugarSmart_300x600_cake_apple/images/cursor.png" alt="">
-            <img id="incorrect" src="http://phe.temp.ogilvyeurope.com/201512/PHE_Sugar_Smart_Phase2_Dec_2015/Cake_Focus/Apple/PHE_SugarSmart_300x600_cake_apple/images/incorrect.png" alt="">
-            <img id="incorrect2" src="http://phe.temp.ogilvyeurope.com/201512/PHE_Sugar_Smart_Phase2_Dec_2015/Cake_Focus/Apple/PHE_SugarSmart_300x600_cake_apple/images/incorrect.png" alt="">
-            <img id="correct" src="http://phe.temp.ogilvyeurope.com/201512/PHE_Sugar_Smart_Phase2_Dec_2015/Cake_Focus/Apple/PHE_SugarSmart_300x600_cake_apple/images/correct.png" alt="">
+        <div id="phe_secondContainer">
+            <img id="phe_tickBox1" src="http://phe.temp.ogilvyeurope.com/201512/PHE_Sugar_Smart_Phase2_Dec_2015/Cake_Focus/Apple/PHE_SugarSmart_300x600_cake_apple/images/tick_box1.png" alt="">
+            <img id="phe_copy2" src="http://phe.temp.ogilvyeurope.com/201512/PHE_Sugar_Smart_Phase2_Dec_2015/Cake_Focus/Apple/PHE_SugarSmart_300x600_cake_apple/images/copy2.png" alt="">
+            <img id="phe_tickBox2" src="http://phe.temp.ogilvyeurope.com/201512/PHE_Sugar_Smart_Phase2_Dec_2015/Cake_Focus/Apple/PHE_SugarSmart_300x600_cake_apple/images/tick_box2.png" alt="">
+            <img id="phe_copy3" src="http://phe.temp.ogilvyeurope.com/201512/PHE_Sugar_Smart_Phase2_Dec_2015/Cake_Focus/Apple/PHE_SugarSmart_300x600_cake_apple/images/copy3.png" alt="">
+            <img id="phe_tickBox3" src="http://phe.temp.ogilvyeurope.com/201512/PHE_Sugar_Smart_Phase2_Dec_2015/Cake_Focus/Apple/PHE_SugarSmart_300x600_cake_apple/images/tick_box3.png" alt="">
+            <img id="phe_copy4" src="http://phe.temp.ogilvyeurope.com/201512/PHE_Sugar_Smart_Phase2_Dec_2015/Cake_Focus/Apple/PHE_SugarSmart_300x600_cake_apple/images/copy4.png" alt="">
+            <img id="phe_cursor" src="http://phe.temp.ogilvyeurope.com/201512/PHE_Sugar_Smart_Phase2_Dec_2015/Cake_Focus/Apple/PHE_SugarSmart_300x600_cake_apple/images/cursor.png" alt="">
+            <img id="phe_incorrect" src="http://phe.temp.ogilvyeurope.com/201512/PHE_Sugar_Smart_Phase2_Dec_2015/Cake_Focus/Apple/PHE_SugarSmart_300x600_cake_apple/images/incorrect.png" alt="">
+            <img id="phe_incorrect2" src="http://phe.temp.ogilvyeurope.com/201512/PHE_Sugar_Smart_Phase2_Dec_2015/Cake_Focus/Apple/PHE_SugarSmart_300x600_cake_apple/images/incorrect.png" alt="">
+            <img id="phe_correct" src="http://phe.temp.ogilvyeurope.com/201512/PHE_Sugar_Smart_Phase2_Dec_2015/Cake_Focus/Apple/PHE_SugarSmart_300x600_cake_apple/images/correct.png" alt="">
         </div>
 
-        <div id="thirdContainer">
-            <img id="equals" src="http://phe.temp.ogilvyeurope.com/201512/PHE_Sugar_Smart_Phase2_Dec_2015/Cake_Focus/Apple/PHE_SugarSmart_300x600_cake_apple/images/equals.png" alt="">
-            <img id="cubes" src="http://phe.temp.ogilvyeurope.com/201512/PHE_Sugar_Smart_Phase2_Dec_2015/Cake_Focus/Apple/PHE_SugarSmart_300x600_cake_apple/images/cubes.png" alt="">
-            <img id="copy5" src="http://phe.temp.ogilvyeurope.com/201512/PHE_Sugar_Smart_Phase2_Dec_2015/Cake_Focus/Apple/PHE_SugarSmart_300x600_cake_apple/images/copy5.png" alt="">
+        <div id="phe_thirdContainer">
+            <img id="phe_equals" src="http://phe.temp.ogilvyeurope.com/201512/PHE_Sugar_Smart_Phase2_Dec_2015/Cake_Focus/Apple/PHE_SugarSmart_300x600_cake_apple/images/equals.png" alt="">
+            <img id="phe_cubes" src="http://phe.temp.ogilvyeurope.com/201512/PHE_Sugar_Smart_Phase2_Dec_2015/Cake_Focus/Apple/PHE_SugarSmart_300x600_cake_apple/images/cubes.png" alt="">
+            <img id="phe_copy5" src="http://phe.temp.ogilvyeurope.com/201512/PHE_Sugar_Smart_Phase2_Dec_2015/Cake_Focus/Apple/PHE_SugarSmart_300x600_cake_apple/images/copy5.png" alt="">
         </div>
 
-        <div id="endFrameContainer">
-            <div id="endFrame1">
-                <img id="copy_endFrame1" src="http://phe.temp.ogilvyeurope.com/201512/PHE_Sugar_Smart_Phase2_Dec_2015/Cake_Focus/Apple/PHE_SugarSmart_300x600_cake_apple/images/copy_endFrame1.png" alt="">
-                <img id="copy_endFrame2" src="http://phe.temp.ogilvyeurope.com/201512/PHE_Sugar_Smart_Phase2_Dec_2015/Cake_Focus/Apple/PHE_SugarSmart_300x600_cake_apple/images/copy_endFrame2.png" alt="">
-                <img id="phone" src="http://phe.temp.ogilvyeurope.com/201512/PHE_Sugar_Smart_Phase2_Dec_2015/Cake_Focus/Apple/PHE_SugarSmart_300x600_cake_apple/images/phone.png" alt="">
-                <img id="badge" src="http://phe.temp.ogilvyeurope.com/201512/PHE_Sugar_Smart_Phase2_Dec_2015/Cake_Focus/Apple/PHE_SugarSmart_300x600_cake_apple/images/badge.png" alt="">
-                <img id="logo_apple" src="http://phe.temp.ogilvyeurope.com/201512/PHE_Sugar_Smart_Phase2_Dec_2015/Cake_Focus/Apple/PHE_SugarSmart_300x600_cake_apple/images/logo_apple.png" alt="">
+        <div id="phe_endFrameContainer">
+            <div id="phe_endFrame1">
+                <img id="phe_copy_endFrame1" src="http://phe.temp.ogilvyeurope.com/201512/PHE_Sugar_Smart_Phase2_Dec_2015/Cake_Focus/Apple/PHE_SugarSmart_300x600_cake_apple/images/copy_endFrame1.png" alt="">
+                <img id="phe_copy_endFrame2" src="http://phe.temp.ogilvyeurope.com/201512/PHE_Sugar_Smart_Phase2_Dec_2015/Cake_Focus/Apple/PHE_SugarSmart_300x600_cake_apple/images/copy_endFrame2.png" alt="">
+                <img id="phe_phone" src="http://phe.temp.ogilvyeurope.com/201512/PHE_Sugar_Smart_Phase2_Dec_2015/Cake_Focus/Apple/PHE_SugarSmart_300x600_cake_apple/images/phone.png" alt="">
+                <img id="phe_badge" src="http://phe.temp.ogilvyeurope.com/201512/PHE_Sugar_Smart_Phase2_Dec_2015/Cake_Focus/Apple/PHE_SugarSmart_300x600_cake_apple/images/badge.png" alt="">
+                <img id="phe_logo_apple" src="http://phe.temp.ogilvyeurope.com/201512/PHE_Sugar_Smart_Phase2_Dec_2015/Cake_Focus/Apple/PHE_SugarSmart_300x600_cake_apple/images/logo_apple.png" alt="">
             </div>
-            <img id="terms" src="http://phe.temp.ogilvyeurope.com/201512/PHE_Sugar_Smart_Phase2_Dec_2015/Cake_Focus/Apple/PHE_SugarSmart_300x600_cake_apple/images/terms.png" alt="">
+            <img id="phe_terms" src="http://phe.temp.ogilvyeurope.com/201512/PHE_Sugar_Smart_Phase2_Dec_2015/Cake_Focus/Apple/PHE_SugarSmart_300x600_cake_apple/images/terms.png" alt="">
         </div>
     </a>
 
-    <img id="btnReplay" src="http://phe.temp.ogilvyeurope.com/201512/PHE_Sugar_Smart_Phase2_Dec_2015/Cake_Focus/Apple/PHE_SugarSmart_300x600_cake_apple/images/replay.png" alt="">
+    <img id="phe_btnReplay" src="http://phe.temp.ogilvyeurope.com/201512/PHE_Sugar_Smart_Phase2_Dec_2015/Cake_Focus/Apple/PHE_SugarSmart_300x600_cake_apple/images/replay.png" alt="">
 
  </div>
-<script type="text/javascript">
-    startAd();
-</script>
-
+</body>
+</html>
